@@ -1,7 +1,9 @@
 /*  your css code here. If applicable */
-span:first-child{
+span::before{
+	content: 'Before Element';
 	color: red;
 }
-span:last-child{
+span::after{
+	content:'After Element';
 	color: red;
 }
